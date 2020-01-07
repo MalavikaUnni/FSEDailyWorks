@@ -1,5 +1,5 @@
 # FSEDailyWorks
-Day 3
+## Day 3
 basics of java programming
 Recursion
 type code and conversion
@@ -7,7 +7,7 @@ type code and conversion
 	 operators in java
 	 datatypes of java
 
-Day 4
+## Day 4
 	 flat files
      DBMS
 	 Data Models
@@ -15,7 +15,7 @@ Day 4
 	 DDL Commands
 	 Types of keys
 
-Day 5
+## Day 5
 	 Data redundancy
 	 Normalisation
 	 1NF
@@ -24,7 +24,7 @@ Day 5
 	 BCNF
 	 JAVA JUNIT
 
-Day 6
+## Day 6
 	Java programming
 	basic programing and exercises
   array exercises
