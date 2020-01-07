@@ -1,11 +1,11 @@
 # FSEDailyWorks
 ## Day 3
-basics of java programming
-Recursion
-type code and conversion
-	 type casting
-	 operators in java
-	 datatypes of java
+	basics of java programming
+	Recursion
+	type code and conversion
+	type casting
+	operators in java
+	datatypes of java
 
 ## Day 4
 	 flat files
