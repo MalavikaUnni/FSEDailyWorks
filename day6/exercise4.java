@@ -1,3 +1,10 @@
+//Consider an example, where the discount percentage on a TV needs to be decided
+//  on the basis of the type of TV. If the TV is CRT (C), the discount will be 5% of the
+//selling price (SP). If the TV is LCD (L), then the discount will depend on the size of
+//the TV screen. For 14 inches screen, the discount is 8% of the SP. For 21 inches
+//screen, the discount is 10% of the SP.
+
+
 import java.io.*;
 import java.util.*;
 class exercise4
@@ -9,8 +16,6 @@ class exercise4
 	System.out.println("Available products : CRT (C) , LCD (L)  ");
     System.out.print("Enter product name: ");
     String name = input.nextLine();
-	//System.out.print("Enter quantity: ");
-    //int quantity = input.nextInt();
 	if(name.equals("C"))
 	{    
         sp=20000;

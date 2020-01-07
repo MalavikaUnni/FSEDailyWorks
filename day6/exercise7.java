@@ -1,3 +1,5 @@
+//Write a Program to accept three numbers and to display the largest of the three numbers.
+
 import java.io.*;
 import java.util.*;
 class exercise7

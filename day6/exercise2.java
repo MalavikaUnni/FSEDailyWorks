@@ -1,3 +1,5 @@
+// Write a Program that accepts the length and breadth of a rectangle and displays its area and perimeter.
+
 import java.io.*;
 import java.util.*;
 class exercise2
