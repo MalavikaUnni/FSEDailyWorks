@@ -27,6 +27,6 @@
 ## Day 6
 	Java programming
 	basic programing and exercises
-  array exercises
-  packages
-  access modifiers
+        array exercises
+  	packages
+  	access modifiers
