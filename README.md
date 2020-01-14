@@ -30,3 +30,26 @@
         array exercises
   	packages
   	access modifiers
+## Day 7
+	Garbage Collector & architecture of JVM
+	Polymorphism
+			--method overloading
+			--method overriding
+	constructor
+	constructor chaining
+	modifiers
+			--static
+			--final
+			--abstract
+	Interfaces in java
+	(TO-DO: selection sort with words)
+## Day 8
+	String Methods
+	Singleton design pattern
+	factory design pattern
+	String Buffer methods
+	String builder methods
+## Day 9
+	Nested class
+	Exception handling
+	Collections in java
