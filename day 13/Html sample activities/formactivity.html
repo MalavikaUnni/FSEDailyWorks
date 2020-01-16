@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Activity</title>
+    <LINK type="text/css" rel="stylesheet" href="Input/ExternalStylesheet\homestylesheet.css" />
+</head>
+<body>
+<h2>BOOK YOUR TICKETS ONLINE</h2>
+<form action="#">
+    Name:<br>
+    <input type="text" name="name" required><br><br><br>
+    Date of Booking:<br>
+    <input type="date" name="date of booking"><br><br><br>
+    Movies :<br>
+    <label>Select Movie</label>
+             <select id = "movie">
+               <option value = "movie1">Movie1</option>
+               <option value = "movie2">Movie2</option>
+               <option value = "movie3">Movie3</option>
+               <option value = "movie4">movie4</option>
+             </select><br><br><br>
+    Show Timings : <br>
+    <label>Select Timing</label>
+             <select id = "timing">
+               <option value = "morning">Morning</option>
+               <option value = "noon">Noon</option>
+               <option value = "atinee">Matinee</option>
+               <option value = "night">Night</option>
+             </select><br><br><br>
+    Select a class :<br>
+    <input type="radio" name="class" value="platinum"> Platinum<br>
+    <input type="radio" name="class" value="gold"> Gold<br>
+    <input type="radio" name="class" value="Exclusive"> Exclusive<br><br><br>
+
+    Select Number of Tickets :<br>
+    <input type="number" max="5">
+    <br><br><br>
+
+    Total Price: <br>
+    <input type="textarea" name="value" disabled> <br><br>
+
+    <input type="submit" value="Submit">
+
+    <input type="reset" value="Reset">
+
+
+</form>
+
+</body>
+</html>
