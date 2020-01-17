@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <script>
+            function check(form)
+            {
+                var name1=form.name.value;
+                var pass=form.password.value;
+                if(name1=="" || pass=="")
+                {
+                    alert("enter the fields");
+                }
+                else{
+                    alert(name1+ "\n" +pass);
+                }
+            }
+       
+           </script>   
+</head>
+<body>
+    <pre>
+    <form onsubmit="return check(this)">
+        <h2>Create an account :</h2><br>
+        Name:              <input type ="text" id= "user" name="name" > <br>
+        Password:          <input type="password" id="pass" name="password"> <br>
+        
+                     <input type="submit" name="Signup" value="Signup">
+
+    </pre>    
+    </form>
+    
+    </pre>
+ 
+</body>
+</html>
