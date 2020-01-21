@@ -62,20 +62,20 @@
 	File handling
 	Multithreading
 	Lambda Expressions
-##Day 12
+## Day 12
 	Stream API
 	Serialization in java
 	Generics in java
 	Date joda API
-##Day 13
+## Day 13
 	HTML basics
-##Day 14
+## Day 14
 	HTML
 	CSS
 	JavaScript
-##20-01-2020
+## 20-01-2020
         ECMAScript(upto Arrays)
 
-##21-01-2020
+## 21-01-2020
         ES6-Array,Classes,Promises
         DOM
