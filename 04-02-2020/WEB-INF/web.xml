@@ -1,0 +1,28 @@
+<web-app>
+<!-- Servlet Registration -->
+<servlet>
+<servlet-name> Hello Servlet </servlet-name>
+<servlet-class>com.cts.training.controller.HelloServlet</servlet-class>
+
+</servlet>
+
+<!-- Servlet Mapping -->
+<servlet-mapping>
+<servlet-name> Hello Servlet </servlet-name>
+<url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name> Login Servlet </servlet-name>
+<servlet-class>com.cts.training.controller.LoginServlet</servlet-class>
+
+</servlet>
+
+<!-- Servlet Mapping -->
+<servlet-mapping>
+<servlet-name> Login Servlet </servlet-name>
+<url-pattern>/logins</url-pattern>
+</servlet-mapping>
+
+</web-app>
