@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="address" name="address"
+	             class="com.cts.training.model.AddressEntity">
+	             <property name="id" value="1001" />
+	             <property name="houseNumber" value="F-124" />
+	             <property name="city" value="delhi" />
+	             <property name="state" value="New Delhi" />
+	             <property name="street" value="Stree No 6" />
+	             <property name="set">
+	             <set>             
+	             <value>Set 1. IT Employees</value>             
+	             <value>Set 2. Test Engineers</value>           
+	             </set>   
+	             </property> 
+	             
+	             
+	    </bean>
+
+</beans>
+
+<!-- <property name="list">   
+	             <list>
+	             <value>List 1. Java</value>
+	             <value>List 2. Python</value>
+	             </list>
+	             </property> -->

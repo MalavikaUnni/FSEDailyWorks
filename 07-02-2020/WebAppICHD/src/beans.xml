@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="fund" class="com.cts.training.model.FundTransferEntity" >
+	<property name="amount" value="10000" />
+	<property name="sender">
+	    <bean name="sender"
+	             class="com.cts.training.model.AccountEntity">
+	             <property name="accountNumber" value="12234456" />
+	             <property name="accountType" value="savings" />
+	             <property name="customer">
+	                 <bean name="customer"
+	                 class="com.cts.training.model.CustomerEntity">
+	                 <property name="id" value="1001" />
+	                 <property name="customerName" value="Malavika"/>
+	                 <property name="phone" value="132546" />
+	                 </bean>
+	            </property>
+        </bean>
+      </property>
+      <property name="receiver">
+         <bean name="receiver"
+                 class="com.cts.training.model.AccountEntity">
+           		 <property name="accountNumber" value="995543" />
+	             <property name="accountType" value="savings" />
+	             <property name="customer">
+	                 <bean name="customer"
+	                 class="com.cts.training.model.CustomerEntity">
+	                 <property name="id" value="20001" />
+	                 <property name="customerName" value="Aneena"/>
+	                 <property name="phone" value="785643765" />
+	                 </bean>
+	            </property>	  
+         </bean>
+      </property>	             
+
+</bean>	
+
+</beans>
