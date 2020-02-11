@@ -4,12 +4,13 @@ import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
 @Entity
 @Component
-
+//@Table(name="company")
 public class Company implements Serializable {
 
 	private static final long serialVersionUID = -6721988738619310856L;
