@@ -183,9 +183,7 @@
 ## Day 37(13-02-2020)
 	Sprig MVC
 	Sprig JDBC Template
-<<<<<<< HEAD
-##Day 38(14-02-2020)
+## Day 38(14-02-2020)
 	Jsp Servlet Security
 	Spring Security
-=======
->>>>>>> 0925c8c275a3d412a5ece3478b0a2dcc4c12ea62
+
