@@ -1,5 +1,194 @@
 <main>
-<div class="container">
+
+
+    <div class="container">
+        <div class="row justify-content-center my-5">
+            <div class="card-deck">
+                <!-- <div class="mx-1"> -->
+                <div class="col-md">
+                    <div class="card shadow text-center card-pop" style="width:20rem;">
+                        <a routerLink="users" class="bg-dark p-4 card-hover text-muted"> <i
+                                class="fas fa-users fa-10x"></i></a>
+                        <div class=" bg-light">
+                            <h5 class="card-title">User List</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md">
+                    <div class="card shadow text-center" style="width:20rem;">
+                        <a routerLink="sign-up" class="bg-dark p-4 card-hover text-muted"> <i
+                                class="fas fa-user-plus fa-10x"></i></a>
+                        <div class=" bg-light">
+                            <h5 class="card-title">Add Users</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- </div> -->
+                <!-- <div class="mx-1"> -->
+                <div class="col-md">
+                    <div class="card shadow text-center" style="width:20rem;">
+                        <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                class="fas fa-suitcase fa-10x"></i></a>
+                        <div class=" bg-light">
+                            <h5 class="card-title">Manage Company</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="mx-1"> -->
+                <div class="col-md">
+                    <div class="card shadow text-center" style="width:20rem;">
+                        <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                class="fas fa-hand-holding-usd fa-10x"></i></a>
+                        <div class=" bg-light">
+                            <h5 class="card-title">Manage IPO</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="card-deck">
+                    <!-- <div class="mx-1"> -->
+                    <div class="col-md">
+                        <div class="card shadow text-center" style="width:20rem;">
+                            <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                    class="fas fa-users fa-10x"></i></a>
+                            <div class=" bg-light">
+                                <h5 class="card-title">Manage Users</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md">
+                        <div class="card shadow text-center" style="width:20rem;">
+                            <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                    class="fas fa-user-plus fa-10x"></i></a>
+                            <div class=" bg-light">
+                                <h5 class="card-title">Add Users</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="mx-1"> -->
+                    <div class="col-md">
+                        <div class="card shadow text-center" style="width:20rem;">
+                            <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                    class="fas fa-suitcase fa-10x"></i></a>
+                            <div class=" bg-light">
+                                <h5 class="card-title">Manage Company</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="mx-1"> -->
+                    <div class="col-md">
+                        <div class="card shadow text-center" style="width:20rem;">
+                            <a routerLink="view" class="bg-dark p-4 card-hover text-muted"> <i
+                                    class="fas fa-hand-holding-usd fa-10x"></i></a>
+                            <div class=" bg-light">
+                                <h5 class="card-title">Manage IPO</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="row mt-3 mr-2">
+        <div class="col-5  col-md-4 offset-md-4 ">
+            <h2 class="display-5 text-muted text-center">Welcome Admin</h2>
+        </div>
+        <div class="col col-md-4">
+            <button class="btn border-dark float-right mr-2"><i class="fa fa-sign-out fa-lg"></i>Logout</button>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="container" style="width:100%;margin:auto">
+        <div class="row no-gutters">
+            <div class="card-columns mx-auto">
+                <a [routerLink]="['/import-data']" class="card text-center shadow" style="width:13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-file-excel-o fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="bg-light">
+                        <h5 class="card-title">Import Data</h5>
+                    </div>
+                </a>
+                <a [routerLink]="['/manage-company']" class="card text-center shadow" style="width: 13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-building fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="bg-light">
+                        <h5 class="card-title">Manage Company</h5>
+                    </div>
+                </a>
+                <a [routerLink]="['/users']" class="card text-center shadow" style="width: 13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="bg-light">
+                        <h5 class="card-title">Manage Users</h5>
+                    </div>
+                </a>
+                <a [routerLink]="['/manage-exchange']" class="card text-center shadow" style="width: 13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-exchange fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="bg-light">
+                        <h5 class="card-title">Manage Exchange</h5>
+                    </div>
+                </a>
+                <a [routerLink]="['/manage-ipo']" class="card text-center shadow mx-auto" style="width: 13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-money fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="bg-light">
+                        <h5 class="card-title">Manage IPO</h5>
+                    </div>
+                </a>
+                <a [routerLink]="['/manage-stockPrice']" class="card text-center shadow mx-auto" style="width: 13rem;">
+                    <div class="card-header bg-dark p-4 card-hover text-muted">
+                        <i class="fa fa-inr fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class=" bg-light">
+                        <h5 class="card-title">Stock Price</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+     -->
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="container">
     <div class=" card  text-center">
         <a [routerLink]="['/users']" class="btn btn-light">SHOW USERLIST</a>
         <a [routerLink]="['/sign-up']" class="btn btn-light">ADD USER</a>
@@ -14,5 +203,4 @@
         <a [routerLink]="['/list-stock-price']" class="btn btn-light">LIST STOCKPRICE</a>
 
     </div>
-</div>
-</main>
+</div> -->
